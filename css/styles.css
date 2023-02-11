@@ -307,6 +307,10 @@ body {
   justify-content: center;
 }
 
+/* .team-list-item{
+  width: 100%;
+} */
+
 .team-item {
   width: 260.35px;
   padding-bottom: 32px;
@@ -711,26 +715,3 @@ body {
   border-color: white;
 }
 
-
-@media screen and (min-width: 480px){
-  .container{
-    max-width: 428px;
-  }
-}
-
-@media screen and (min-width: 768px){
-  .container{
-    max-width: 768px;
- }
-.team-list {
-  column-gap: 24px;
-  row-gap: 64px;
-}
-
-}
-
-@media screen and (min-width: 1200){
-  .container{
-    max-width: 1440px;
-  }
-} 
