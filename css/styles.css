@@ -55,7 +55,7 @@ body {
   /* width: 1158px; */
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 .list {
   padding: 0px;
@@ -710,3 +710,27 @@ body {
 .footer-input:hover {
   border-color: white;
 }
+
+
+@media screen and (min-width: 480px){
+  .container{
+    max-width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .container{
+    max-width: 768px;
+ }
+.team-list {
+  column-gap: 24px;
+  row-gap: 64px;
+}
+
+}
+
+@media screen and (min-width: 1200){
+  .container{
+    max-width: 1440px;
+  }
+} 
