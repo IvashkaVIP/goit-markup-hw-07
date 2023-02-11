@@ -294,6 +294,9 @@ body {
   display: flex;
   gap: 24px;
 }
+.section.works{
+  display: none;
+}
 /* --------------------------Section-3 Team */
 .section.team {
   padding-top: 96px;

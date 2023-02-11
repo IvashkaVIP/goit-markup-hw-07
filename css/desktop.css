@@ -1,9 +1,15 @@
 @media screen and (min-width: 1200px){
   .container{
-    max-width: 1440px;
+    max-width: 1158px;
   }
 .section.team {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.section.works{
+  display: block;
+ }
+ .works.list{
+  justify-content: center;
+ }
 } 
