@@ -32,6 +32,10 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+
 }
 html {
   box-sizing: border-box;
@@ -48,7 +52,8 @@ body {
 }
 /* ---------------------------Утилиты */
 .container {
-  width: 1158px;
+  /* width: 1158px; */
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -291,13 +296,19 @@ body {
 }
 /* --------------------------Section-3 Team */
 .section.team {
+  padding-top: 96px;
+  padding-bottom: 128px;
   background-color: var(--light-bcg-color);
 }
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;  
+  gap: 72px;
+  justify-content: center;
 }
+
 .team-item {
+  width: 260.35px;
   padding-bottom: 32px;
   text-align: center;
   background-color: var(--light-color);
@@ -306,7 +317,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .team-foto {
-  margin-bottom: 32px;
+   margin: 0 auto 32px;
 }
 .team-soc-list {
   display: flex;
