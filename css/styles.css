@@ -334,6 +334,15 @@ body {
 .team-foto {
    margin: 0 auto 32px;
 }
+.list-item.team{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text-description.team{
+  font-weight: 400;
+}
 .team-soc-list {
   display: flex;
   justify-content: center;
