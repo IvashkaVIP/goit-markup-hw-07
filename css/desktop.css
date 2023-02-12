@@ -4,6 +4,20 @@
    max-width: 1160px;
   }
 
+/* ---------------------------------------Section Hero --------- */
+.hero{
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.hero-title{
+  margin-bottom: 48px;
+}
+.hero-image{
+  /* max-width: 1440px; */
+  height: 600px;
+}
+/* -------------------------------------------------------------- */
+
 .section.feature{
   padding-top: 120px;
   padding-bottom: 0;
