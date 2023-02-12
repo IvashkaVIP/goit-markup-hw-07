@@ -272,6 +272,7 @@ body {
   display: none;
 }
 .text-description {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
@@ -322,7 +323,7 @@ body {
 } */
 
 .team-item {
-  width: 260.35px;
+  width: 100%;
   padding-bottom: 32px;
   text-align: center;
   background-color: var(--light-color);
