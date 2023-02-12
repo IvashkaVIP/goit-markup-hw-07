@@ -232,13 +232,12 @@ body {
 }
 .feature-list {
   display: flex;
-  /* width: 100%; */
+  width: 100%; 
   flex-wrap: wrap;
   gap: 72px;
 }
 .text-item {
-  /* max-width: 264px; */
-  width: 100%;
+ width: 100%;
 }
 .text-item::before {
   content: "";

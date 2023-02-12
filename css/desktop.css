@@ -2,6 +2,31 @@
   .container{
     max-width: 1158px;
   }
+
+.section.feature{
+  padding-top: 120px;
+  padding-bottom: 0;
+}
+
+.icon-strategy::before,
+.icon-punctuality::before,
+.icon-diligence::before,
+.icon-technologies::before {
+  display: block;
+}
+.list-item{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.text-description{
+  font-weight: 400;
+}
+
+.text-item{
+  width: calc((100% - 72px) / 4);
+}
+
 .section.team {
   padding-top: 120px;
   padding-bottom: 120px;

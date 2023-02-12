@@ -2,6 +2,16 @@
   .container{
     max-width: 768px;
  }
+ .list-item {
+  text-align: left;
+ }
+.text-item{
+  width: calc((100% - 24px) / 2);
+}
+.feature-list{
+  row-gap: 72px;
+  column-gap: 24px;
+}
 .team-list {
   column-gap: 24px;
   row-gap: 64px;
