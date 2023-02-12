@@ -12,9 +12,8 @@
 .hero-title{
   margin-bottom: 48px;
 }
-.hero-image{
-  /* max-width: 1440px; */
-  height: 600px;
+.hero-image{     
+   height: 600px;
 }
 /* -------------------------------------------------------------- */
 
