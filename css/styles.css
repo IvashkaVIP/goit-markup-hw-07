@@ -52,10 +52,11 @@ body {
 }
 /* ---------------------------Утилиты */
 .container {
-  /* width: 1158px; */
   width: 100%;
-  margin: 0 auto;
-  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px; 
+  padding-right: 16px;
 }
 .list {
   padding: 0px;
@@ -227,16 +228,17 @@ body {
 }
 /* -------------------------Section-1 Features*/
 .section.feature {
-  padding-bottom: 0px;
+  padding: 96px 0;
 }
 .feature-list {
   display: flex;
-  gap: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 100%; */
+  flex-wrap: wrap;
+  gap: 72px;
 }
 .text-item {
-  width: 264px;
+  /* max-width: 264px; */
+  width: 100%;
 }
 .text-item::before {
   content: "";
@@ -252,18 +254,22 @@ body {
 .icon-strategy::before {
   background-image: url(../images/antenna.svg);
   background-size: 64px;
+  display: none;
 }
 .icon-punctuality::before {
   background-image: url(../images/clock.svg);
   background-size: 64px;
+  display: none;
 }
 .icon-diligence::before {
   background-image: url(../images/diagram.svg);
   background-size: 64px;
+  display: none;
 }
 .icon-technologies::before {
   background-image: url(../images/astronaut.svg);
   background-size: 64px;
+  display: none;
 }
 .text-description {
   line-height: 1.5;
@@ -271,13 +277,14 @@ body {
   margin-bottom: 8px;
 }
 .list-item {
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 8px;
 
   color: var(--dark-heading-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 /* -------------------------Section-2 Works*/
