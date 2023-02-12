@@ -13,13 +13,15 @@
     padding-bottom: 108px;
   }
  .hero-image {
+      height: 436px;
+      max-width: 768px;
       background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/hero-bg-desk-1x.jpg"); 
-    height: 436px;
+    
    }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
