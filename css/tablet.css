@@ -5,6 +5,25 @@
    .container.mini {
     max-width: 552px;
  } 
+ /* ---------------------------------------Section Hero --------- */
+ 
+ .hero{
+    max-width: 100%;
+    padding-top: 112px;
+    padding-bottom: 108px;
+  }
+ .hero-image {
+    height: 436px;
+   }
+.hero-title {
+  
+  max-width: 496px;
+  margin-bottom: 40px;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+  /* ------------------------------------------------------------ */
  .list-item {
   text-align: left;
  }
