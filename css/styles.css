@@ -34,7 +34,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 100%;
+  /* width: 100%; */
 
 }
 html {
@@ -310,15 +310,19 @@ body {
   padding-bottom: 128px;
   background-color: var(--light-bcg-color);
 }
+
 .team-list {
   display: flex;
   flex-wrap: wrap;  
   gap: 72px;
-  justify-content: center;
+  justify-content: center; 
 }
+/* .team-list-item{
+  width: 100%;
+} */
 
 .team-item {
-  width: 100%;
+  max-width: 264px;
   padding-bottom: 32px;
   text-align: center;
   background-color: var(--light-color);
@@ -364,6 +368,9 @@ body {
   fill: var(--soc-icon-color);
 }
 /*-----------------------------Customers  */
+.container.mini{
+  max-width: 428px;
+}
 .section.customers{
   padding-top: 96px;
   padding-bottom: 96px;

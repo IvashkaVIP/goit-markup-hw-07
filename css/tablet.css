@@ -2,6 +2,9 @@
   .container{
     max-width: 768px;
  }
+   .container.mini {
+    max-width: 552px;
+ } 
  .list-item {
   text-align: left;
  }
