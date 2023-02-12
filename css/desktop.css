@@ -37,4 +37,8 @@
  .works.list{
   justify-content: center;
  }
+ /* ------------------------------------Section Customers */
+ .customers-item {
+  width: calc((100% - 5 * 24px) / 6);
+ }
 } 
