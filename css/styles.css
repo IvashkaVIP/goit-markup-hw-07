@@ -88,15 +88,20 @@ body {
 }
 /*--------------------------  Header  */
 .header-page {
+  
   border-bottom: 1px solid var(--footer-color-text);
 }
 .header-main {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
   align-items: center;
 }
 .nav-main {
+  width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+
 }
 .logo {
   margin-right: 76px;
@@ -107,6 +112,18 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
+.icon-footer{
+  stroke: var(--dark-heading-color)
+}
+   .header-btn.btn{
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    line-height: 0;
+  }
 /*-------------------------- Site nav */
 .site-nav .link,
 .modal-title {
@@ -124,9 +141,17 @@ body {
 .site-nav .link:hover {
   color: var(--active-text-color);
 }
-.site-nav {
+/* .site-nav {
   display: flex;
+} */
+.site-nav{
+  display: none;
 }
+
+
+
+
+
 .site-nav .item + .item {
   margin-left: 40px;
 }
@@ -146,9 +171,13 @@ body {
 }
 
 /* ---------------------------Contakts */
-.adress-main {
+/* .adress-main {
   margin-left: auto;
+} */
+.adress-main{
+  display: none;
 }
+
 .site-adress {
   display: flex;
 }
