@@ -52,7 +52,7 @@
  .works.list{
   justify-content: center;
  }
- /* ------------------------------------Section Customers */
+ /* ------------------------------------Section Customers ----*/
  .section.customers{
   padding-top: 120px;
   padding-bottom: 120px;
@@ -60,4 +60,9 @@
  .customers-item {
   width: calc((100% - 5 * 24px) / 6);
  }
+ /* --------------------------------------Footer----------- */
+ .footer-section{
+  max-width: none;
+  justify-content: space-between;
+  }
 } 
