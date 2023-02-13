@@ -69,5 +69,34 @@
 .customers-item {
   width: calc((100% - 2 * 24px) / 3);
 }
+/* -----------------------------------------Section Footer */
+.footer-section{
+    flex-direction: row;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: unset;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 552px;
+  }
+  .footer-logo{
+    max-width: 264px;
+    margin: 0;
+    text-align: left;
+  }
+  .footer-soc{
+    max-width: 208px;
+  }
+  .footer-soc-text,
+  .footer-sub-text{
+    text-align: left;
+  }
+  .footer-subscribe{
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-input{
+    min-width: 264px;
+  }
 }
 
