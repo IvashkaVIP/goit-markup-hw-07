@@ -1,11 +1,11 @@
 @media screen and (min-width: 320px){
-  .container{
-    max-width: 428px;
-   }
-@media screen and (min-width: 480px){
-  .container{
-    max-width: 428px;
-   }
+    .container{
+      max-width: 428px;
+     }
+  @media screen and (min-width: 480px){
+    .container{
+      max-width: 428px;
+    }
     
    .hero-image {
     background-image: linear-gradient(
@@ -29,3 +29,5 @@
   }
 }
 }
+}
+
