@@ -5,6 +5,26 @@
    .container.mini {
     max-width: 552px;
  } 
+/* ---------------------------------------Header--------- */
+.header-btn{
+  display: none;
+}
+.site-nav{
+  display: flex;
+}
+.nav-main {
+  justify-content: left;
+
+}
+.header-main {
+  
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+
+
+
  /* ---------------------------------------Section Hero --------- */
  
  .hero{

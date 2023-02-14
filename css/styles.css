@@ -99,19 +99,21 @@ body {
   border-bottom: 1px solid var(--footer-color-text);
 }
 .header-main {
-  display: flex;
+  /* display: flex; */
   padding-top: 24px;
   padding-bottom: 24px;
-  align-items: center;
+  /* align-items: center;
+  justify-content: space-between; */
 }
 .nav-main {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
 }
 .logo {
-  margin-right: 76px;
+  margin-right: 120px;
   color: var(--dark-heading-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -119,7 +121,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.icon-footer{
+.icon-header{
   stroke: var(--dark-heading-color)
 }
    .header-btn.btn{
