@@ -32,7 +32,7 @@
             ><span class="accent">WEB</span>STUDIO</a
           >
 
-<button type="button" class="header-btn btn">
+<button class="header-btn btn" data-menu-open type="button" >
   <svg class="icon-footer" width="32" height="22">
     <use href="./images/icons.svg#icon-menu"></use>
   </svg>
@@ -65,10 +65,10 @@
         </address>
   </div> 
 <!-- -----------------------------------------------------------Mob-Menu -->
-<div class="mob-menu">
+<div class="mob-menu is-hidden" data-menu>
   <div class="container-mob-menu ">
       <div>
-        <button class="modal-close" data-modal-close type="button">
+        <button class="modal-close" data-menu-close type="button">
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
@@ -591,5 +591,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

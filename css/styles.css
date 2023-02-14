@@ -34,8 +34,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  
-
+}
+.no-scroll {
+  overflow: hidden;
 }
 html {
   box-sizing: border-box;
