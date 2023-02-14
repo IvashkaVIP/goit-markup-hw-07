@@ -519,6 +519,7 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
+    <div class="form-wrapper">
           <label for="user-name" class="modal-input-text">Name</label>
           <div class="input-wrap">
             <input
@@ -567,6 +568,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
+    </div>
           <div class="modal-field-check">
             <input
               type="checkbox"
@@ -576,16 +578,18 @@
               value="true"
               required
             />
+            
             <label for="policy" class="check-text">
-              <span>
-                <svg class="check-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
+              <span class="check-icon"> <svg class="check-icon" width="10" height="8"><use href="./images/icons.svg#icon-check"></use></svg></span>
+              
+              <div>
               I accept the terms and conditions of the&nbsp;
-              <a href="" class="modal-link">Privacy Policy</a></label
-            >
+              <a href="" class="modal-link">Privacy Policy</a>
+              </div>
+
+            </label>
           </div>
+          
           <button type="submit" class="modal-btn btn">Send</button>
         </form>
       </div>

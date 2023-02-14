@@ -132,8 +132,7 @@ body {
     line-height: 0;
   }
 /*-------------------------- Site nav */
-.site-nav .link,
-.modal-title {
+.site-nav .link {
   display: block;
   color: var(--dark-heading-color);
   font-weight: 500;
@@ -144,6 +143,7 @@ body {
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .site-nav .link:focus,
 .site-nav .link:hover {
   color: var(--active-text-color);
@@ -559,18 +559,33 @@ body {
   pointer-events: no;
 }
 .modal {
-  padding: 24px;
+  padding: 24px 16px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(360deg);
-  width: 408px;
-  min-height: 576px;
+  width: calc(100% - 36px);
+  max-width: 392px;
+  height: calc(100% - 18px);
+  max-height: 586px;
+  overflow: auto;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-title {
+  display: block;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark-heading-color);
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(0);
@@ -603,13 +618,9 @@ body {
 .modal-field {
   margin-bottom: 16px;
 }
-.modal-title {
-  text-align: center;
-  padding-bottom: 14px;
-}
 .modal-input {
   width: 100%;
-  height: 40px;
+  height: 36px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: transparent;
@@ -658,9 +669,8 @@ body {
 }
 .modal-comment {
   width: 100%;
-  height: 138px;
-  padding-top: 8px;
-  padding-left: 16px;
+  height: 120px;
+  padding: 8px 16px;
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -675,6 +685,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: #757575;
+  align-items: center;
 }
 .check-text span {
   display: flex;
@@ -690,6 +701,12 @@ body {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.check-icon{
+  width: 16px;
+  height: 16px;
+
+}
+
 .modal-check:checked + .check-text span {
   background-color: var(--active-btn-color);
   border-color: var(--active-btn-color);
@@ -699,6 +716,7 @@ body {
   color: var(--accent-color);
 }
 .modal-field-check {
+  display: flex;
   margin-bottom: 24px;
 }
 .modal-btn.btn {
@@ -864,7 +882,8 @@ body {
 }
 .container-mob-menu{
   max-width: 448px;
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin: 0 auto;
 }
 .mob-link{

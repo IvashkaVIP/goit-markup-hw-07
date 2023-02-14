@@ -43,6 +43,12 @@
   font-size: 56px;
   line-height: 1.07;
 }
+.modal {
+    max-width: 408px;
+    max-height: 586px;
+    padding: 24px;
+  }
+
 
   /* ------------------------------------------------------------ */
  .list-item {
