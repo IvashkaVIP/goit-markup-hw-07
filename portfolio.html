@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Document</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +20,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     <header class="header-page">
@@ -28,8 +31,15 @@
           <a href="./index.html" class="logo link"
             ><span class="accent">WEB</span>STUDIO</a
           >
+          <button class="header-btn btn" data-menu-open type="button">
+            <svg class="icon-header" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
           <ul class="site-nav list">
-            <li class="item"><a class="link" href="./index.html">Studio</a></li>
+            <li class="item">
+              <a class="link" href="./index.html">Studio</a>
+            </li>
             <li class="item">
               <a class="link current-page" href="./portfolio.html">Portfolio</a>
             </li>
@@ -39,17 +49,92 @@
         <address class="adress-main">
           <ul class="site-adress list">
             <li class="item">
-              <a class="contakts link" href="mailto:info@devstudio.com"
+              <a class="contacts link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li class="item">
-              <a class="contakts link" href="tel:+110001111111"
+              <a class="contacts link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+      </div>
+      <!-- -----------------------------------------------------------Mob-Menu -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container-mob-menu">
+          <div>
+            <button class="mob-menu-close" data-menu-close type="button">
+              <svg class="close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-18dp"></use>
+              </svg>
+            </button>
+            <nav class="mob-nav-main">
+              <ul class="mob-site-nav list">
+                <li class="mob-item">
+                  <a class="mob-link mob-current-page" href="./index.html"
+                    >Studio</a
+                  >
+                </li>
+                <li class="mob-item">
+                  <a class="mob-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="mob-item">
+                  <a class="mob-link" href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <address class="mob-adress-main">
+              <ul class="mob-adress list">
+                <li class="mob-item">
+                  <a class="mob-contacts-tel link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mob-item">
+                  <a
+                    class="mob-contacts-mail link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="mob-soc-list list">
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link">
+                  <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link">
+                  <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link">
+                  <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-soc-item">
+                <a href="" class="mob-soc-link">
+                  <svg class="mob-soc-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -262,17 +347,18 @@
     <footer class="footer-page">
       <div class="container">
         <div class="footer-section">
-          <div class="footer-section-left">
+          <div class="footer-logo">
             <a href="./index.html" class="logo link"
               ><span class="accent">WEB</span>STUDIO</a
             >
-            <p class="text-item-footer text-description">
+            <p class="footer-logo-text">
               Increase the flow of customers and sales for your business with
               digital marketing & growth solutions.
             </p>
           </div>
-          <div class="footer-section-soc">
-            <p class="text-item-footer text-description">Social media</p>
+
+          <div class="footer-soc">
+            <p class="footer-soc-text">Social media</p>
             <ul class="footer-soc-list list">
               <li class="footer-soc-item">
                 <a href="" class="footer-soc-link">
@@ -297,15 +383,16 @@
               </li>
               <li class="footer-soc-item">
                 <a href="" class="footer-soc-link">
-                  <svg class="team-soc-icon" width="24" height="24">
+                  <svg class="footer-soc-icon" width="24" height="24">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
               </li>
             </ul>
           </div>
+
           <div class="footer-section-subscribe">
-            <p class="text-item-footer text-description">Subscribe</p>
+            <p class="footer-sub-text">Subscribe</p>
             <form class="footer-subscribe">
               <label for="footer-name">
                 <input

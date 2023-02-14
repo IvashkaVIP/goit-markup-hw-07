@@ -1,109 +1,105 @@
-@media screen and (min-width: 768px){
-  .container{
+@media screen and (min-width: 768px) {
+  .container {
     max-width: 768px;
- }
-   .container.mini {
+  }
+  .container.mini {
     max-width: 552px;
- } 
-/* ---------------------------------------Header--------- */
-.header-btn{
-  display: none;
-}
-.site-nav{
-  display: flex;
-}
-.nav-main {
-  justify-content: left;
-}
-.header-main {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.adress-main{
-  display: flex;
-}
-.site-adress{
-  display: flex;
-  flex-direction: column;
-}
-.header-main{
-  display: flex;
-  align-items: center;
-}
+  }
+  /* ---------------------------------------Header--------- */
+  .header-btn {
+    display: none;
+  }
+  .site-nav {
+    display: flex;
+  }
+  .nav-main {
+    justify-content: left;
+  }
+  .header-main {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .adress-main {
+    display: flex;
+  }
+  .site-adress {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-main {
+    display: flex;
+    align-items: center;
+  }
 
+  /* ---------------------------------------Section Hero --------- */
 
- /* ---------------------------------------Section Hero --------- */
- 
- .hero{
+  .hero {
     max-width: 100%;
     padding-top: 112px;
     padding-bottom: 108px;
   }
- .hero-image {
-      height: 436px;
-      max-width: 768px;
-      background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/hero-bg-desk-1x.jpg"); 
-    
-   }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
   .hero-image {
+    height: 436px;
+    max-width: 768px;
     background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url("../images/hero-bg-desk-2x.jpg");
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/hero-bg-desk-1x.jpg");
   }
-}
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-image {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-bg-desk-2x.jpg");
+    }
+  }
 
-.hero-title {
-  
-  max-width: 496px;
-  margin-bottom: 40px;
-  font-size: 56px;
-  line-height: 1.07;
-}
-.modal {
+  .hero-title {
+    max-width: 496px;
+    margin-bottom: 40px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  .modal {
     max-width: 408px;
     max-height: 586px;
     padding: 24px;
   }
 
-
   /* ------------------------------------------------------------ */
- .list-item {
-  text-align: left;
- }
-.text-item{
-  width: calc((100% - 24px) / 2);
-}
-.feature-list{
-  row-gap: 72px;
-  column-gap: 24px;
-}
-.team-list {
-  column-gap: 24px;
-  row-gap: 64px;
-}
-.section.team {
-  padding-bottom: 104px;
-}
-/*---------------------------------------- Section Customers ------ */
-.customers-list {
-  column-gap: 24px;
-}
-.customers-item {
-  width: calc((100% - 2 * 24px) / 3);
-}
-/* -----------------------------------------Section Footer */
-.footer-section{
+  .list-item {
+    text-align: left;
+  }
+  .text-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .feature-list {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .section.team {
+    padding-bottom: 104px;
+  }
+  /*---------------------------------------- Section Customers ------ */
+  .customers-list {
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+  /* -----------------------------------------Section Footer */
+  .footer-section {
     flex-direction: row;
     row-gap: 72px;
     column-gap: 24px;
@@ -112,24 +108,23 @@
     margin: 0 auto;
     max-width: 552px;
   }
-  .footer-logo{
+  .footer-logo {
     max-width: 264px;
     margin: 0;
     text-align: left;
   }
-  .footer-soc{
+  .footer-soc {
     max-width: 208px;
   }
   .footer-soc-text,
-  .footer-sub-text{
+  .footer-sub-text {
     text-align: left;
   }
-  .footer-subscribe{
+  .footer-subscribe {
     flex-direction: row;
     gap: 24px;
   }
-  .footer-input{
+  .footer-input {
     min-width: 264px;
   }
 }
-
