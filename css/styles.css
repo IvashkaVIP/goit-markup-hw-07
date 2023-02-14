@@ -190,9 +190,9 @@ body {
 .site-adress {
   display: flex;
 }
-.site-adress .item + .item {
+/* .site-adress .item + .item {
   margin-left: 40px;
-}
+} */
 .contacts {
   color: var(--body-text-color);
   font-style: normal;

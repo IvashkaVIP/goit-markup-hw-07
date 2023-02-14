@@ -14,15 +14,22 @@
 }
 .nav-main {
   justify-content: left;
-
 }
 .header-main {
-  
   padding-top: 0;
   padding-bottom: 0;
-  
 }
-
+.adress-main{
+  display: flex;
+}
+.site-adress{
+  display: flex;
+  flex-direction: column;
+}
+.header-main{
+  display: flex;
+  align-items: center;
+}
 
 
  /* ---------------------------------------Section Hero --------- */
