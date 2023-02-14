@@ -35,9 +35,8 @@ img {
   max-width: 100%;
   height: auto;
 }
-.no-scroll {
-  overflow: hidden;
-}
+
+
 html {
   box-sizing: border-box;
 }
@@ -46,10 +45,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
 body {
   background-color: var(--primary-bcg-color);
   color: var(--body-text-color);
   font-family: Roboto, sans-serif;
+}
+.no-scroll {
+  overflow: hidden;
 }
 /* ---------------------------Утилиты */
 .container {
@@ -69,6 +72,7 @@ body {
   font-style: normal;
   
 }
+
 
 .accent {
   color: var(--accent-color);
@@ -571,7 +575,8 @@ body {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(0);
 }
-.modal-close {
+.modal-close,
+.mob-menu-close {
   margin-left: auto;
   width: 24px;
   height: 24px;
@@ -583,14 +588,16 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close:is(:hover, :focus) {
+.modal-close:is(:hover, :focus),
+.mob-menu-close:is(:hover, :focus) {
   background-color: var(--active-text-color);
 }
 .close-icon {
   fill: #000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close:is(:hover, :focus) .close-icon {
+.modal-close:is(:hover, :focus) .close-icon,
+.mob-menu-close:is(:hover, :focus) .close-icon {
   fill: #ffff;
 }
 .modal-field {
