@@ -4,6 +4,26 @@
    max-width: 1160px;
   }
 
+/* ---------------------------------------Section Header--------- */
+.header-main{
+  
+  justify-content: space-between;
+}
+.nav-main{
+ width: fit-content;
+}
+.site-nav{
+  margin-left: 76px;
+}
+.logo{
+  margin-right: 0;
+}
+.site-adress{
+  flex-direction: row;
+  gap: 40px;
+  /* margin-right: 156px; */
+}
+
 /* ---------------------------------------Section Hero --------- */
 .hero{
   padding-top: 188px;
